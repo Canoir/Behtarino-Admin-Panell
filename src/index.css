@@ -1,0 +1,42 @@
+@import url('stylesheets/theme.css');
+@import url('stylesheets/react-toastify.css');
+@import url('react-toastify/dist/ReactToastify.min.css');
+@import url('stylesheets/Dana.css');
+@import url('stylesheets/map.css');
+
+html {
+  display: flex;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  flex: 1;
+  font-family: 'Dana';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: rtl;
+}
+
+#root {
+  height: 100%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.hidden-scrollbar {
+  scrollbar-width: none;
+}
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none !important;
+}
+
+.single-line-text{
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-x: auto;
+}

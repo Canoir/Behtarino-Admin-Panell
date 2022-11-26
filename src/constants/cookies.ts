@@ -1,0 +1,1 @@
+export const TOKEN_COOKIE_KEY = 'BEHTARINO_TOKEN_V3';

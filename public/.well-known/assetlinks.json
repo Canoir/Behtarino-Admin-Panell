@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.behtarino.admin",
+      "sha256_cert_fingerprints": [
+        "BD:92:19:D1:BA:E3:70:16:2E:2F:A3:CD:1B:52:0D:55:AA:D0:BE:E8:80:EF:E8:94:1C:C9:D7:AD:44:BC:BD:4D"
+      ]
+    }
+  }
+]
